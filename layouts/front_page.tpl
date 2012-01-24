@@ -50,8 +50,6 @@
       {% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}
     </div> <!-- //edicy -->
   </div> <!-- //wrap -->
-
-  {% unless editmode %}{{ site.analytics }}{% endunless %}
   {% include "JS" %}
 </body>
 </html>
