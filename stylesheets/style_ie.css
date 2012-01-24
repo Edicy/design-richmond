@@ -1,0 +1,13 @@
+.wrap {
+ width: 940px 
+}
+#container-left {
+  width: 425px;
+  margin-right: 20px
+}
+#container-right, #content {
+  width: 475px
+}
+#sidebar {
+  width: 195px
+}
