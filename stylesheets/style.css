@@ -189,6 +189,7 @@ pre { white-space: normal; }
   .form_error { color: red; font-weight: bold;font-size: 12px; border: 1px dotted red; padding: 5px; }
   .form_field_error { color: red; font-size: 10px; line-height: 14px;  }
   .form_notice { color: green; border: 1px dotted green; padding: 5px; }
+  .form_field_with_errors input, .form_field_with_errors textarea { border: 1px solid red}
   .form_field_size_large { width: 98%; }
   .form_field_size_medium { width: 50%; }
   .form_field_size_small { width: 25%;}
@@ -348,7 +349,4 @@ textarea, input {outline: none;}
 .edys-sw-search-fin {
     border-color: #fff
 }
-.placeholder { color: #b2b2b2 !important }
-::-webkit-input-placeholder { color: #b2b2b2 !important }
-:-moz-placeholder { color: #b2b2b2 !important }
 html {  -webkit-text-size-adjust: none;	}
