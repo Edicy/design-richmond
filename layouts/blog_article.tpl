@@ -34,6 +34,22 @@
                   {% editable article.excerpt %}
                 </div>
                 {% editable article.body %}
+                
+                {% if editmode %}
+                    <div class="cfx article-tags">
+                        <div class="article-tag-icon"></div>
+                        {% editable article.tags %}
+                    </div>
+                  {% else %}
+                    {% unless article.tags == empty %}
+                        <div class="cfx article-tags">
+                            <div class="article-tag-icon"></div>
+                            {% for tag in article.tags %}
+                                <a href="{{ article.page.url }}/tagged/{{ tag.path }}">{{ tag.name }}</a>{% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                        </div>
+                    {% endunless %}
+                {% endif %}
               </div> <!-- //news-block -->
              
               {% if article.comments_count > 0 %}
@@ -45,7 +61,7 @@
                 <div class="comment{% if forloop.first %} comment-first{% endif %} clearfix edy-site-blog-comment">
                   <div class="comment-nr">{{ forloop.index }}</div>
                   <div class="comment-content">
-                    {{ comment.body }}
+                    {{ comment.body_html }}
                     <div class="comment-info">
                      {% removebutton %} {{ comment.created_at | format_date : "short" }} &nbsp;&#8226;&nbsp; {{ comment.author }}
                     </div> <!-- //comment-info -->
