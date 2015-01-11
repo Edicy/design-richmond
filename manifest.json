@@ -1,1 +1,226 @@
-{"layouts":[{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog_front","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"JS","layout_name":"","content_type":"component","file":"components/js.tpl"},{"component":true,"title":"Langmenu","layout_name":"","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Mainmenu","layout_name":"","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"Search","layout_name":"","content_type":"component","file":"components/search.tpl"},{"component":true,"title":"SiteHeader","layout_name":"","content_type":"component","file":"components/siteheader.tpl"},{"component":true,"title":"Submenu","layout_name":"","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"MobileMenus","layout_name":"","content_type":"component","file":"components/mobilemenus.tpl"}],"name":"Richmond","author":"Tajo Oja","assets":[{"kind":"images","content_type":"image/gif","filename":"colored.gif","file":"images/colored.gif"},{"kind":"images","content_type":"image/gif","filename":"container.gif","file":"images/container.gif"},{"kind":"images","content_type":"image/gif","filename":"arrow_active.gif","file":"images/arrow_active.gif"},{"kind":"images","content_type":"image/gif","filename":"arrow.gif","file":"images/arrow.gif"},{"kind":"images","content_type":"image/gif","filename":"bottom-btm.gif","file":"images/bottom-btm.gif"},{"kind":"images","content_type":"image/gif","filename":"bottom-btm-sep.gif","file":"images/bottom-btm-sep.gif"},{"kind":"images","content_type":"image/gif","filename":"bottom-top-sep.gif","file":"images/bottom-top-sep.gif"},{"kind":"images","content_type":"image/gif","filename":"bottom-top.gif","file":"images/bottom-top.gif"},{"kind":"images","content_type":"image/gif","filename":"dot.gif","file":"images/dot.gif"},{"kind":"images","content_type":"image/gif","filename":"dot_active.gif","file":"images/dot_active.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu.gif","file":"images/mainmenu.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_spot.gif","file":"images/mainmenu_spot.gif"},{"kind":"images","content_type":"image/gif","filename":"orn.gif","file":"images/orn.gif"},{"kind":"images","content_type":"image/gif","filename":"quotebox.gif","file":"images/quotebox.gif"},{"kind":"images","content_type":"image/gif","filename":"quotebox1.gif","file":"images/quotebox1.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/jpeg","filename":"image.jpg","file":"images/image.jpg"},{"kind":"stylesheets","content_type":"text/css","filename":"style_ie.css","file":"stylesheets/style_ie.css"},{"kind":"javascripts","content_type":"text/javascript","filename":"modernizr.js","file":"javascripts/modernizr.js"},{"kind":"images","content_type":"image/svg+xml","filename":"header-tag.svg","file":"images/header-tag.svg"},{"kind":"images","content_type":"image/svg+xml","filename":"tag.svg","file":"images/tag.svg"},{"kind":"images","content_type":"image/png","filename":"header-tag.png","file":"images/header-tag.png"},{"kind":"images","content_type":"image/png","filename":"tag.png","file":"images/tag.png"}],"preview_medium":"http://static.edicy.com/designs/previews/richmond_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/richmond_small.jpg","description":"Richmond template by Tajo Oja"}
+{
+  "description": "Richmond template by Tajo Oja",
+  "name": "Richmond",
+  "preview_medium": "http://static.edicy.com/designs/previews/richmond_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/richmond_small.jpg",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mobilemenus.tpl",
+      "layout_name": "mobilemenus",
+      "title": "mobilemenus"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag.svg",
+      "kind": "assets",
+      "filename": "tag.svg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/arrow.gif",
+      "kind": "images",
+      "filename": "arrow.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/arrow_active.gif",
+      "kind": "images",
+      "filename": "arrow_active.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bottom-btm-sep.gif",
+      "kind": "images",
+      "filename": "bottom-btm-sep.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bottom-btm.gif",
+      "kind": "images",
+      "filename": "bottom-btm.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bottom-top-sep.gif",
+      "kind": "images",
+      "filename": "bottom-top-sep.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bottom-top.gif",
+      "kind": "images",
+      "filename": "bottom-top.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/colored.gif",
+      "kind": "images",
+      "filename": "colored.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/container.gif",
+      "kind": "images",
+      "filename": "container.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/dot.gif",
+      "kind": "images",
+      "filename": "dot.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/dot_active.gif",
+      "kind": "images",
+      "filename": "dot_active.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/image.jpg",
+      "kind": "images",
+      "filename": "image.jpg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu.gif",
+      "kind": "images",
+      "filename": "mainmenu.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_spot.gif",
+      "kind": "images",
+      "filename": "mainmenu_spot.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/orn.gif",
+      "kind": "images",
+      "filename": "orn.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/quotebox.gif",
+      "kind": "images",
+      "filename": "quotebox.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/quotebox1.gif",
+      "kind": "images",
+      "filename": "quotebox1.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style_ie.css",
+      "kind": "stylesheets",
+      "filename": "style_ie.css"
+    }
+  ]
+}
