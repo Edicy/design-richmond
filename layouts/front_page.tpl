@@ -22,10 +22,10 @@
           <img src="{{ images_path }}/image.jpg?1" alt="" />
         </div> <!-- //container-left -->
         <div id="container-right">
-          <div class="container-right-inner">
+          <div class="container-right-inner" data-search-indexing-allowed="true">
             {% content %}
           </div> <!-- //container-right-inner -->
-          <div class="colored-box">
+          <div class="colored-box" data-search-indexing-allowed="true">
             {% content name="a" %}
           </div> <!-- //colored-box -->
         </div> <!-- //container-right -->

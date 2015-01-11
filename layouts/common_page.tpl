@@ -25,7 +25,7 @@
           
         </div> <!-- //sidebar -->
         
-        <div id="content">
+        <div id="content" data-search-indexing-allowed="true">
           {% content %}
         </div> <!-- //content -->
       </div> <!-- //wrap -->
