@@ -74,7 +74,7 @@ pre { white-space: normal; }
       #logo a:hover { text-decoration: underline;}
     #mainmenu { margin: 0; padding: 30px 0 0; float: right; width: 61.7%;}
       #mainmenu ul { margin: 0; padding: 0; list-style-type: none; float: right; }
-      #mainmenu li { float: left; }
+      #mainmenu li { display: inline-block; vertical-align: middle; }
       #mainmenu li.active { background: url('../images/mainmenu.gif?1') no-repeat left top;  }
       
         #mainmenu a:not(.edy-cbtn) div { float: left; }
