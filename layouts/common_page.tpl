@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <div id="wrap">
+   <div id="wrap" class="content-hyphenate">
     <div id="header">
       <div class="wrap clearfix">
         <div id="logo" class="clearfix">

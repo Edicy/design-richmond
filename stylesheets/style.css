@@ -21,6 +21,14 @@ img {
   border: none
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 /* Editable content image */
 .edy-positionable-container-left {
   margin-right: 15px;
@@ -409,3 +417,13 @@ textarea, input {outline: none;}
     border-color: #fff
 }
 html {  -webkit-text-size-adjust: none;	}
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
+}
+
+#content .edy-site-blog-comment:hover .edy-btn-removecomment {
+  text-decoration: none;
+}
