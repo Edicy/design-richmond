@@ -77,13 +77,18 @@ pre { white-space: normal; }
       #mainmenu li { float: left; }
       #mainmenu li.active { background: url('../images/mainmenu.gif?1') no-repeat left top;  }
       
-        #mainmenu div { float: left; }
+        #mainmenu a:not(.edy-cbtn) div { float: left; }
         #mainmenu li.active div { background: url('../images/mainmenu.gif?1') no-repeat right -100px; }
         
         #mainmenu li.active-last { background: none }
         #mainmenu li.active-first div { background: none }
-          #mainmenu a { float: left; padding: 33px 20px 0; height: 50px; font-size: 15px; color: #333; text-decoration: none; outline:0; }
+          #mainmenu a:not(.edy-cbtn) { float: left; padding: 33px 20px 0; height: 50px; font-size: 15px; color: #333; text-decoration: none; outline:0; }
           #mainmenu a:hover { background: url('../images/mainmenu_spot.gif?1') no-repeat center 15px;}
+          #mainmenu a.edy-cbtn {
+            display: block;
+            margin-right: 20px;
+            background: none;
+          }
           #mainmenu li.active a { color: #bb0500; background: url('../images/mainmenu_spot.gif?1') no-repeat center -65px;}
 
 /* container */
